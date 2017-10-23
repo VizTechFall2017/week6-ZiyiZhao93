@@ -7,6 +7,13 @@ var yearData = [];
 //set up a tracker variable to watch the button click state
 var clicked = true;
 
+/*
+var div = d3.select("body").append("div")
+    .attr("class", "tooltip")
+    .style("opacity", 0);
+
+*/
+
 //set up scales to position circles using the data
 //scalePoint positions a list of points (in this case, "16-19" etc.) evenly along an interval (0-600)
 var scaleX = d3.scalePoint().domain(["16-19", "20-24", "25-34", "35-44", "45-54", "55-64","65+"]).range([0, 600]);
@@ -77,7 +84,26 @@ d3.csv('./incomeDataAllYears.csv', function(dataIn){
         .append('circle')
         .attr('class','w_dataPoints')
         .attr('r', 5)
-        .attr('fill', "lime");
+        .attr('fill', "lime")
+        .attr('data-toggle','tootip')
+        .attr('title', function(d){return d.women;});
+        /*
+        .on("mouseover", function(d) {
+            div.transition()
+                .duration(200)
+                .style("opacity", .9);
+            div.html(d.women)
+                .style("left", (d3.event.pageX) + "px")
+                .style("top", (d3.event.pageY - 28) + "px");
+        })
+        .on("mouseout", function(d) {
+            div.transition()
+                .duration(500)
+                .style("opacity", 0);
+        });
+        */
+
+    $('[data-toggle="tooltip"]').tooltip();
 
     svg.selectAll('circles')
         .data(data2016)
@@ -86,6 +112,11 @@ d3.csv('./incomeDataAllYears.csv', function(dataIn){
         .attr('class','m_dataPoints')
         .attr('r', 5)
         .attr('fill', "blue");
+
+
+
+
+
 
     //call the drawPoints function below, and hand it the data2016 variable with the 2016 object array in it
     drawPoints(data2016);

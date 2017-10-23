@@ -1,4 +1,15 @@
-var svg = d3.select('svg');
+var width = d3.select('svg').attr('with');
+var height = d3.select('svg').attr('height');
+
+console.log(width);
+
+var marginLeft = 100;
+var marginTop = 100;
+
+var svg = d3.select('svg')
+    .append('g')
+    .attr('transform', 'translate(' + marginLeft + ', ' + marginTop + ')');
+
 
 //set up scales to position circles using the data
 var scaleX = d3.scalePoint().domain(["16-19", "20-24", "25-34", "35-44", "45-54", "55-64","65+"]).range([0, 600]);

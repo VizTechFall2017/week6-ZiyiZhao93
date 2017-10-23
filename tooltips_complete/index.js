@@ -1,4 +1,4 @@
-var svg = d3.select('svg').append('g').attr('transform','translate(100,100)');
+var svg = d3.select('svg').attr()
 
 
 //set up scales to position circles using the data
