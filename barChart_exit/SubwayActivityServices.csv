@@ -1,0 +1,22 @@
+things,genderCode,gender,percent
+read a book,0,total,12.5
+listen to music,0,total,62.5
+play game,0,total,25
+social media,0,total,75
+chat,0,total,75
+wondering,0,total,25
+take a rest,0,total,12.5
+read a book,1,male,0
+listen to music,1,male,12.5
+play game,1,male,0
+social media,1,male,0
+chat,1,male,0
+wondering,1,male,0
+take a rest,1,male,0
+read a book,2,female,100
+listen to music,2,female,87.5
+play game,2,female,100
+social media,2,female,100
+chat,2,female,100
+wondering,2,female,100
+take a rest,2,female,100
