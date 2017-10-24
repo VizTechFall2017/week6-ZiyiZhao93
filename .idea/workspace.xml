@@ -2,6 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acbc85e4-e92c-41a0-8e90-d449b9d635cc" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/barChart_exit/SubwayActivityServices.csv" afterPath="$PROJECT_DIR$/PS01/SubwayActivityServices.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/barChart_exit/countryData.csv" afterPath="$PROJECT_DIR$/PS01/countryData.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/barChart_exit/countryData.json" afterPath="$PROJECT_DIR$/PS01/countryData.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/barChart_exit/index.html" afterPath="$PROJECT_DIR$/PS01/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/barChart_exit/index.js" afterPath="$PROJECT_DIR$/PS01/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/barChart_exit/libraries/bootstrap.css" afterPath="$PROJECT_DIR$/PS01/libraries/bootstrap.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/barChart_exit/libraries/bootstrap.js" afterPath="$PROJECT_DIR$/PS01/libraries/bootstrap.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/barChart_exit/libraries/d3.v4.2.6.min.js" afterPath="$PROJECT_DIR$/PS01/libraries/d3.v4.2.6.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/barChart_exit/libraries/jquery-3.2.1.js" afterPath="$PROJECT_DIR$/PS01/libraries/jquery-3.2.1.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/barChart_exit/style.css" afterPath="$PROJECT_DIR$/PS01/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -27,17 +37,17 @@
         </entry>
       </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/barChart_exit/index.js">
+        <entry file="file://$PROJECT_DIR$/PS01/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-46">
-              <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+            <state relative-caret-position="510">
+              <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="SubwayActivityServices.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/barChart_exit/SubwayActivityServices.csv">
+        <entry file="file://$PROJECT_DIR$/PS01/SubwayActivityServices.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
               <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
@@ -126,7 +136,7 @@
             <path>
               <item name="week6-ZiyiZhao93" type="b2602c69:ProjectViewProjectNode" />
               <item name="week6-ZiyiZhao93" type="462c0819:PsiDirectoryNode" />
-              <item name="barChart_exit" type="462c0819:PsiDirectoryNode" />
+              <item name="PS01" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -141,6 +151,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/PS01" />
       <recent name="$PROJECT_DIR$/barChart_exit" />
       <recent name="$PROJECT_DIR$/barChart_complete" />
     </key>
@@ -170,11 +181,12 @@
       <workItem from="1508279090379" duration="6913000" />
       <workItem from="1508726300940" duration="4590000" />
       <workItem from="1508806371209" duration="288000" />
+      <workItem from="1508882428765" duration="119000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11791000" />
+    <option name="totallyTimeSpent" value="11910000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="19" y="23" width="1238" height="766" extended-state="0" />
@@ -217,7 +229,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/barChart_exit/SubwayActivityServices.csv">
+    <entry file="file://$PROJECT_DIR$/PS01/SubwayActivityServices.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PS01/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barChart_complete/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="76" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PS01/SubwayActivityServices.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
@@ -225,7 +261,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/barChart_exit/index.js">
+    <entry file="file://$PROJECT_DIR$/PS01/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
@@ -363,7 +399,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/barChart_exit/SubwayActivityServices.csv">
+    <entry file="file://$PROJECT_DIR$/PS01/SubwayActivityServices.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
@@ -371,10 +407,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/barChart_exit/index.js">
+    <entry file="file://$PROJECT_DIR$/PS01/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46">
-          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+        <state relative-caret-position="510">
+          <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
           <folding />
         </state>
       </provider>
